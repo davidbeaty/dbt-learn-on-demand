@@ -1,0 +1,13 @@
+version: 2
+macros:
+  - name: cents_to_dollars
+    description: converts the values held in the passed in column name from cents to dollars
+    docs:
+      show: true
+    arguments:
+      - name: column_name
+        type: string
+        description: column name to convert
+      - name: decimal_places
+        type: integer
+        description: number of decimal places to round the converted value to

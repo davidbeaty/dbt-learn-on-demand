@@ -37,3 +37,6 @@ models:
             +materialized: view
         marts:
             +materialized: table
+
+vars:
+    payment_methods: ['bank_transfer','coupon','credit_card','gift_card','paypal']
